@@ -90,7 +90,7 @@ public class MCT {
 
 				// 设置AST
 
-				double maxEst = 0d;
+				double maxEst = 0d;//000
 
 				LinkedHashMap<Task, Integer> predMap = currentTask.getPredTask$CommCostMap();//当前任务与它的前驱任务，通信代价
 
